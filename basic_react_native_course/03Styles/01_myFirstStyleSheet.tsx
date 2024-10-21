@@ -2,6 +2,16 @@
 
 import {StyleSheet, Text, View} from 'react-native';
 
+/*
+  React native styles:
+  1) Create() //create a style
+  2) Compose() //combine two style
+  3) Fletten() // give you first style in object
+  4) absoluteFill // create overlays with position absolute and zero positioning
+  5) absoluteFillObject() //almost same, just decaltion is diffrent
+  6) hairlineWidth //This is defined as the width of a thin line on the platform. like border line
+*/
+
 const MyStyleSheet = () => {
   return (
     <View style={mStyle.container}>
